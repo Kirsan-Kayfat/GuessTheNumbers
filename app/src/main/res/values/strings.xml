@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Guess the Numbers</string>
+    <string name="score">Score: </string>
+    <string name="input_your_answer_hint">Input your answer</string>
 </resources>

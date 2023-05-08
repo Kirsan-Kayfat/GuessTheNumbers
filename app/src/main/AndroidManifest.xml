@@ -12,7 +12,11 @@
         android:theme="@style/Theme.GuessTheNumbers"
         tools:targetApi="31">
         <activity
+            android:name=".SecondScreen"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
+            android:windowSoftInputMode="adjustResize"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
